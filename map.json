@@ -1,0 +1,122 @@
+[
+	{
+		"key": "PR",
+		"latitude": -23.417321,
+		"longitude": -51.939245,
+		"name": "SICOOB CENTRAL UNICOOB"
+	},
+	{
+		"key": "SP",
+		"latitude": -22.03,
+		"longitude": -48.91,
+		"name": "São Paulo"
+	},
+	{
+		"key": "4374",
+		"latitude": -23.550455,
+		"longitude": -51.457685,
+		"name": "SICOOB ALIANÇA"
+	},
+	{
+		"key": "4169",
+		"latitude": -1.454609,
+		"longitude": -48.502008,
+		"name": "SICOOB COOESA"
+	},
+	{
+		"key": "4170",
+		"latitude": -1.455793,
+		"longitude": -48.500727,
+		"name": "SICOOB COIMPPA"
+	},
+	{
+		"key": "4370",
+		"latitude": -24.951684,
+		"longitude": -53.477795,
+		"name": "SICOOB CREDICAPITAL"
+	},
+	{
+		"key": "4393",
+		"latitude": -23.412097,
+		"longitude": -51.433788,
+		"name": "SICOOB HORIZONTE"
+	},
+	{
+		"key": "4390",
+		"latitude": -26.222434,
+		"longitude": -52.672608,
+		"name": "SICOOB INTEGRADO"
+	},
+	{
+		"key": "4385",
+		"latitude": -24.565325,
+		"longitude": -54.063774,
+		"name": "SICOOB MARECHAL"
+	},
+	{
+		"key": "4396",
+		"latitude": -24.406980,
+		"longitude": -53.514267,
+		"name": "SICOOB MEDIO OESTE"
+	},
+	{
+		"key": "4351",
+		"latitude": -24.724120,
+		"longitude": -53.723072,
+		"name": "SICOOB UNICOOB MERIDIONAL"
+	},
+	{
+		"key": "4340",
+		"latitude": -23.418239,
+		"longitude": -51.926917,
+		"name": "SICOOB METROPOLITANO"
+	},
+	{
+		"key": "4361",
+		"latitude": -23.084489,
+		"longitude": -52.462751,
+		"name": "SICOOB OURO BRANCO"
+	},
+	{
+		"key": "4355",
+		"latitude": -23.311374,
+		"longitude": -51.157937,
+		"name": "SICOOB OURO VERDE"
+	},
+	{
+		"key": "4368",
+		"latitude": -25.439264,
+		"longitude": -49.279838,
+		"name": "SICOOB SUL"
+	},
+	{
+		"key": "4609",
+		"latitude": -3.835527,
+		"longitude": -50.637239,
+		"name": "SICOOB TRANSAMAZÔNICA"
+	},
+	{
+		"key": "4343",
+		"latitude": -25.540206,
+		"longitude": -54.580307,
+		"name": "SICOOB TRÊS FRONTEIRAS"
+	},
+	{
+		"key": "4197",
+		"latitude": -1.425874,
+		"longitude": -48.451381,
+		"name": "SICOOB UNIDAS"
+	},
+	{
+		"key": "4342",
+		"latitude": -26.082476,
+		"longitude": -53.048096,
+		"name": "SICOOB VALE SUL"
+	},
+	{
+		"key": "2013",
+		"latitude": -23.572169,
+		"longitude": -46.642416,
+		"name": "SICOOB VALE SUL"
+	}
+]
