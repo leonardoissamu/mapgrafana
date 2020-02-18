@@ -36,15 +36,39 @@
 		"name": "SICOOB CREDICAPITAL"
 	},
 	{
+		"key": "4370-26",
+		"latitude": -30.057455,
+		"longitude": -51.222779,
+		"name": "SICOOB CREDICAPITAL"
+	},
+	{
 		"key": "4393",
 		"latitude": -23.412097,
 		"longitude": -51.433788,
 		"name": "SICOOB HORIZONTE"
 	},
 	{
+		"key": "4393-07",
+		"latitude": -18.999982,
+		"longitude": -57.650901,
+		"name": "SICOOB HORIZONTE"
+	},
+	{
+		"key": "4393-08",
+		"latitude": -22.546029,
+		"longitude": -55.724360,
+		"name": "SICOOB HORIZONTE"
+	},
+	{
 		"key": "4390",
 		"latitude": -26.222434,
 		"longitude": -52.672608,
+		"name": "SICOOB INTEGRADO"
+	},
+	{
+		"key": "4390-53",
+		"latitude": -23.284230,
+		"longitude": -46.874713,
 		"name": "SICOOB INTEGRADO"
 	},
 	{
@@ -84,9 +108,21 @@
 		"name": "SICOOB OURO VERDE"
 	},
 	{
+		"key": "4355-32",
+		"latitude": -0.843083,
+		"longitude": -52.517157,
+		"name": "SICOOB OURO VERDE"
+	},
+	{
 		"key": "4368",
 		"latitude": -25.439264,
 		"longitude": -49.279838,
+		"name": "SICOOB SUL"
+	},
+	{
+		"key": "4368-21",
+		"latitude": -27.591231,
+		"longitude": -48.550785,
 		"name": "SICOOB SUL"
 	},
 	{
