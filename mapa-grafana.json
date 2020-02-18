@@ -1,0 +1,432 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": "-- Grafana --",
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "description": "",
+  "editable": true,
+  "gnetId": 10005,
+  "graphTooltip": 0,
+  "id": 53,
+  "iteration": 1582028147134,
+  "links": [],
+  "panels": [
+    {
+      "collapsed": false,
+      "datasource": null,
+      "gridPos": {
+        "h": 1,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": 10,
+      "panels": [],
+      "title": "",
+      "type": "row"
+    },
+    {
+      "circleMaxSize": "5",
+      "circleMinSize": 2,
+      "colors": [
+        "#629e51",
+        "#bf1b00"
+      ],
+      "datasource": "Zabbix",
+      "decimals": null,
+      "esLocationName": "",
+      "esMetric": "Metric",
+      "gridPos": {
+        "h": 21,
+        "w": 9,
+        "x": 0,
+        "y": 1
+      },
+      "hideEmpty": false,
+      "hideTimeOverride": true,
+      "hideZero": false,
+      "id": 2,
+      "initialZoom": "4",
+      "jsonUrl": "https://raw.githubusercontent.com/leonardoissamu/mapgrafana/master/map.json",
+      "jsonpCallback": "",
+      "jsonpUrl": "https://raw.githubusercontent.com/paulopaim/grafana/master/states.json",
+      "links": [],
+      "locationData": "json endpoint",
+      "mapCenter": "custom",
+      "mapCenterLatitude": "-15",
+      "mapCenterLongitude": "-55",
+      "maxDataPoints": 1,
+      "mouseWheelZoom": false,
+      "options": {},
+      "showLegend": false,
+      "stickyLabels": true,
+      "tableLabel": "",
+      "tableQueryOptions": {
+        "geohashField": "geohash",
+        "labelField": "",
+        "latitudeField": "latitude",
+        "longitudeField": "longitude",
+        "metricField": "metric",
+        "queryType": "coordinates"
+      },
+      "targets": [
+        {
+          "alias": "",
+          "application": {
+            "filter": "Mapa"
+          },
+          "format": "table",
+          "functions": [
+            {
+              "def": {
+                "category": "Alias",
+                "defaultParams": [
+                  "/(.*)/",
+                  "$1"
+                ],
+                "name": "replaceAlias",
+                "params": [
+                  {
+                    "name": "regexp",
+                    "type": "string"
+                  },
+                  {
+                    "name": "newAlias",
+                    "type": "string"
+                  }
+                ]
+              },
+              "params": [
+                "/.*Failed step of scenario \"([^.]*)\".*/",
+                "$1"
+              ],
+              "text": "replaceAlias(/.*Failed step of scenario \"([^.]*)\".*/, $1)"
+            }
+          ],
+          "group": {
+            "filter": "/.*/"
+          },
+          "hide": false,
+          "host": {
+            "filter": "Mapa"
+          },
+          "item": {
+            "filter": "Failed step of scenario \"$Estados\"."
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "rawSql": "select * \nfrom httptest_field ",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "thresholds": "0.9",
+      "timeFrom": "1m",
+      "timeShift": null,
+      "title": "Brazil",
+      "type": "grafana-worldmap-panel",
+      "unitPlural": "",
+      "unitSingle": "",
+      "valueName": "current"
+    },
+    {
+      "ackEventColor": "rgb(56, 219, 156)",
+      "ageField": false,
+      "customLastChangeFormat": false,
+      "datasource": null,
+      "descriptionAtNewLine": false,
+      "descriptionField": true,
+      "fontSize": "100%",
+      "gridPos": {
+        "h": 21,
+        "w": 15,
+        "x": 9,
+        "y": 1
+      },
+      "highlightBackground": false,
+      "highlightNewEvents": false,
+      "highlightNewerThan": "1h",
+      "hostField": true,
+      "hostGroups": false,
+      "hostProxy": false,
+      "hostTechNameField": false,
+      "hostsInMaintenance": true,
+      "id": 39,
+      "lastChangeFormat": "",
+      "layout": "table",
+      "limit": 100,
+      "markAckEvents": true,
+      "okEventColor": "rgb(56, 189, 113)",
+      "options": {},
+      "pageSize": 10,
+      "problemTimeline": true,
+      "resizedColumns": [],
+      "schemaVersion": 7,
+      "severityField": false,
+      "showEvents": {
+        "text": "Problems",
+        "value": 1
+      },
+      "showTags": false,
+      "showTriggers": "all triggers",
+      "sortTriggersBy": {
+        "text": "last change",
+        "value": "lastchange"
+      },
+      "statusField": true,
+      "statusIcon": true,
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": "Zabbix",
+          "group": {
+            "filter": "SonicWall"
+          },
+          "host": {
+            "filter": ""
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "refId": "A",
+          "tags": {
+            "filter": ""
+          },
+          "trigger": {
+            "filter": ""
+          }
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "Alertas",
+      "triggerSeverity": [
+        {
+          "color": "rgb(108, 108, 108)",
+          "priority": 0,
+          "severity": "Not classified",
+          "show": false
+        },
+        {
+          "color": "rgb(120, 158, 183)",
+          "priority": 1,
+          "severity": "Information",
+          "show": false
+        },
+        {
+          "color": "rgb(175, 180, 36)",
+          "priority": 2,
+          "severity": "Warning",
+          "show": true
+        },
+        {
+          "color": "rgb(255, 137, 30)",
+          "priority": 3,
+          "severity": "Average",
+          "show": true
+        },
+        {
+          "color": "rgb(255, 101, 72)",
+          "priority": 4,
+          "severity": "High",
+          "show": true
+        },
+        {
+          "color": "rgb(215, 0, 0)",
+          "priority": 5,
+          "severity": "Disaster",
+          "show": true
+        }
+      ],
+      "type": "alexanderzobnin-zabbix-triggers-panel"
+    }
+  ],
+  "refresh": "5s",
+  "schemaVersion": 22,
+  "style": "dark",
+  "tags": [
+    "2009"
+  ],
+  "templating": {
+    "list": [
+      {
+        "allValue": "",
+        "current": {
+          "text": "2009",
+          "value": "2009"
+        },
+        "datasource": "Zabbix",
+        "definition": "*.Mapa.*.*",
+        "hide": 0,
+        "includeAll": false,
+        "label": null,
+        "multi": false,
+        "name": "Mapa",
+        "options": [],
+        "query": "*.Mapa.*.*",
+        "refresh": 1,
+        "regex": "/.*Failed step of scenario \"([^.]*)\".*/",
+        "skipUrlSync": false,
+        "sort": 1,
+        "tagValuesQuery": "",
+        "tags": [],
+        "tagsQuery": "",
+        "type": "query",
+        "useTags": false
+      },
+      {
+        "allValue": null,
+        "current": {
+          "selected": false,
+          "text": "All",
+          "value": "$__all"
+        },
+        "datasource": "Zabbix",
+        "definition": "*.Mapa.*.*",
+        "hide": 2,
+        "includeAll": true,
+        "label": null,
+        "multi": false,
+        "name": "Services",
+        "options": [],
+        "query": "*.Mapa.*.*",
+        "refresh": 1,
+        "regex": "/Response time for step \"([^.]*)\" of /",
+        "skipUrlSync": false,
+        "sort": 1,
+        "tagValuesQuery": "",
+        "tags": [],
+        "tagsQuery": "",
+        "type": "query",
+        "useTags": false
+      },
+      {
+        "allValue": "",
+        "current": {
+          "selected": false,
+          "text": "All",
+          "value": "$__all"
+        },
+        "datasource": "Zabbix",
+        "definition": "*.Mapa.*.*",
+        "hide": 2,
+        "includeAll": true,
+        "label": null,
+        "multi": true,
+        "name": "Estados",
+        "options": [],
+        "query": "*.Mapa.*.*",
+        "refresh": 1,
+        "regex": "/.*Failed step of scenario \"([^.]*)\".*/",
+        "skipUrlSync": false,
+        "sort": 1,
+        "tagValuesQuery": "",
+        "tags": [],
+        "tagsQuery": "",
+        "type": "query",
+        "useTags": false
+      },
+      {
+        "allValue": null,
+        "current": {
+          "text": "2013-00",
+          "value": "2013-00"
+        },
+        "datasource": "Zabbix",
+        "definition": "SonicWall.*",
+        "hide": 0,
+        "includeAll": false,
+        "label": null,
+        "multi": false,
+        "name": "Host",
+        "options": [
+          {
+            "selected": true,
+            "text": "2013-00",
+            "value": "2013-00"
+          },
+          {
+            "selected": false,
+            "text": "4361-00",
+            "value": "4361-00"
+          },
+          {
+            "selected": false,
+            "text": "4374-00",
+            "value": "4374-00"
+          },
+          {
+            "selected": false,
+            "text": "4379-00",
+            "value": "4379-00"
+          }
+        ],
+        "query": "SonicWall.*",
+        "refresh": 0,
+        "regex": "/.*Sonicwall ([^.]*).*/",
+        "skipUrlSync": false,
+        "sort": 0,
+        "tagValuesQuery": "",
+        "tags": [],
+        "tagsQuery": "",
+        "type": "query",
+        "useTags": false
+      }
+    ]
+  },
+  "time": {
+    "from": "now-15m",
+    "to": "now"
+  },
+  "timepicker": {
+    "refresh_intervals": [
+      "5s",
+      "10s",
+      "30s",
+      "1m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "1d"
+    ],
+    "time_options": [
+      "5m",
+      "15m",
+      "1h",
+      "6h",
+      "12h",
+      "24h",
+      "2d",
+      "7d",
+      "30d"
+    ]
+  },
+  "timezone": "",
+  "title": "Mapa de Monitoramento",
+  "uid": "maps",
+  "version": 21
+}
