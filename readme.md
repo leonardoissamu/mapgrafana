@@ -1,4 +1,4 @@
-<strong>Dashboard no Grafana com o plugin WorldMapPanel</strong>
+<center><h3><strong>Dashboard no Grafana com o plugin WorldMapPanel</strong></h3></center>
 
 Buscando informações a partir de um webcenário no Zabbix
 
