@@ -160,5 +160,113 @@
 		"latitude": -23.572169,
 		"longitude": -46.642416,
 		"name": "UNIMAIS"
-	}
+	},
+	{
+		"key": "4169-0",
+		"latitude": -14.54536,
+		"longitude": -48.501879,
+		"name": "4169 SICOOB COOESA"
+	  },
+	  {
+		"key": "4169-1",
+		"latitude": -24.54951,
+		"longitude": -54.711952,
+		"name": "4169 SICOOB COOESA"
+	  },
+	  {
+		"key": "4169-2",
+		"latitude": -14.53861,
+		"longitude": -48.486,
+		"name": "4169 SICOOB COOESA"
+	  },
+	  {
+		"key": "4169-3",
+		"latitude": -12.93189,
+		"longitude": -47.931829,
+		"name": "4169 SICOOB COOESA"
+	  },
+	  {
+		"key": "4169-99",
+		"latitude": -14.54536,
+		"longitude": -48.501879,
+		"name": "4169 SICOOB COOESA"
+	  },
+	  {
+		"key": "4170-0",
+		"latitude": -14.48753,
+		"longitude": -48.487865,
+		"name": "4170 SICOOB COIMPPA"
+	  },
+	  {
+		"key": "4170-2",
+		"latitude": -14.48755,
+		"longitude": -48.487867,
+		"name": "4170 SICOOB COIMPPA"
+	  },
+	  {
+		"key": "4197-0",
+		"latitude": -14.48755,
+		"longitude": -48.487867,
+		"name": "4197 SICOOB UNIDAS"
+	  },
+	  {
+		"key": "4197-1",
+		"latitude": -14.47202,
+		"longitude": -48.465651,
+		"name": "4197 SICOOB UNIDAS"
+	  },
+	  {
+		"key": "4197-2",
+		"latitude": -13.4485,
+		"longitude": -48.395965,
+		"name": "4197 SICOOB UNIDAS"
+	  },
+	  {
+		"key": "4197-3",
+		"latitude": -17.24881,
+		"longitude": -48.87587,
+		"name": "4197 SICOOB UNIDAS"
+	  },
+	  {
+		"key": "4197-4",
+		"latitude": -15.06081,
+		"longitude": -48.637292,
+		"name": "4197 SICOOB UNIDAS"
+	  },
+	  {
+		"key": "4197-5",
+		"latitude": -13.85886,
+		"longitude": -48.318981,
+		"name": "4197 SICOOB UNIDAS"
+	  },
+	  {
+		"key": "4197-6",
+		"latitude": -13.04585,
+		"longitude": -48.15937,
+		"name": "4197 SICOOB UNIDAS"
+	  },
+	  {
+		"key": "4197-7",
+		"latitude": -14.48755,
+		"longitude": -48.487867,
+		"name": "4197 SICOOB UNIDAS"
+	  },
+	  {
+		"key": "4197-8",
+		"latitude": -11.93195,
+		"longitude": -47.182737,
+		"name": "4197 SICOOB UNIDAS"
+	  },
+	  {
+		"key": "4197-9",
+		"latitude": -14.47202,
+		"longitude": -48.465651,
+		"name": "4197 SICOOB UNIDAS"
+	  },
+	  {
+		"key": "4197-99",
+		"latitude": -14.48755,
+		"longitude": -48.487867,
+		"name": "4197 SICOOB UNIDAS"
+	  }
 ]
